@@ -28,6 +28,7 @@ public class ApodDataServiceImpl implements ApodDataService {
 
         @Override
         protected ApodData doInBackground(Void... voids) {
+            Log.i("Service Endpoint", serviceEndpoint);
             try {
                 if (this.serviceEndpoint.isEmpty()) {
                     Log.e("APODDataTask", "Service endpoint is empty");

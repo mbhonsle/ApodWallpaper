@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
         this.button.setText(R.string.set_wallpaper);
         this.imageView.setVisibility(View.VISIBLE);
         Bitmap image = this.mainController.getImage(apodData.getUrl());
+        this.imageView.setImageBitmap(image);
         this.button.setOnClickListener(new OnClickListenerForImage(image));
     }
 
