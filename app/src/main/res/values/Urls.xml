@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apod_base_url">https://api.nasa.gov/planetary/apod?api_key=%1$s</string>
+</resources>
